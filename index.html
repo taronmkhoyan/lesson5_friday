@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- <script src="class.livingCreature.js"></script>
+	<script src="class.grass.js"></script>
+	<script src="class.grassEater.js"></script>
+	<script src="class.bomb.js"></script>
+	<script src="class.predator.js"></script>
+	<script src="class.victim.js"></script> -->
+	<script src="socket.io/socket.io.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title></title>
+</head>
+
+<body>
+	<div class="final">
+		<div>
+			<h1>Final Project III</h1>
+		</div>
+		<div>
+			<h1>Taron Mkhoyan</h1>
+		</div>
+	</div>
+
+
+	<div class="description">
+		<div id="grass"><div id="green"></div><p>Grass is food for grass eaters and is rising for ever.                                                                            </p></div>
+		<br>
+		<div id="grass"><div id="yellow"></div><p>Grass eater</p></div>
+		<br>
+		<div id="grass"><div id="red"></div><p>Predator</p></div>
+		<br>
+		<div id="grass"><div id="blue"></div><p>Bomb</p></div>
+		<br>
+		<div id="grass"><div id="black"></div><p>Victim</p></div>
+	</div>
+
+
+	<div class="but">
+		<div>
+			<button id="butSummer">Summer</button>
+		</div>
+		<div>
+			<button id="butAutumn">Autumn</button>
+		</div>
+		<div>
+			<button id="butWinter">Winter</button>
+		</div>
+		<div>
+			<button id="butSpring">Spring</button>
+		</div>
+	</div>
+
+	<button id="button" onclick="add()">Add grass</button>
+
+</body>
+
+</html>

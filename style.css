@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+}
+
+.but{
+    display: flex;
+    flex-direction: row;
+}
+
+#button{
+    width: 100px;
+    height: 20px;
+}
+
+canvas{
+    position: absolute;
+    left: 500px;
+    top: 150px;
+}
+
+.final{
+    position: absolute;
+    left: 620px;
+    top: 10px;
+}
+
+
+.description{
+    position: absolute;
+    top: 700px;
+}
+
+.description div{
+    border-bottom: 1px solid black;
+    width: 100%;
+    border-top: 1px solid black;
+}
+
+#green{
+    width: 30px;
+    height: 30px;
+    background-color: #31e037;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+#grass{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#grass p {
+    margin-left: 60px;
+}
+
+
+#yellow{
+    width: 30px;
+    height: 30px;
+    background-color:#f0f573;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+#red{
+    width: 30px;
+    height: 30px;
+    background-color: #31e037;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+#blue{
+    width: 30px;
+    height: 30px;
+    background-color: #31e037;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+#black{
+    width: 30px;
+    height: 30px;
+    background-color: #31e037;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
